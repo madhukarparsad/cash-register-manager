@@ -1,0 +1,48 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    color: #F3F4F6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: vw;
+    text-align: center;
+    margin: auto;
+    background-color: #4d5256;
+}
+#bill-amount{
+    text-align: center;
+    padding: 0.5rem;
+    width: 80%;
+    margin: auto;
+}
+#cash-given{
+    text-align: center;
+    padding: 0.5rem; 
+    width: 80%;
+    margin: auto;
+}
+#check-button{
+    width: 30%;
+    margin: auto;
+    padding: 0.1rem ;
+    margin-top: 0.5rem;
+}
+.change-table{
+    padding: 1rem;
+    border-collapse: collapse;
+    height: 8rem;
+    background-color: rgb(198, 79, 222);
+}
+th,td{
+    border: 1px solid white;   
+}
+@media(max-width:360px){
+    html{
+        font-size: 95%
+    }
+}
